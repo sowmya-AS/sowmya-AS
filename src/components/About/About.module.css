@@ -18,8 +18,13 @@
   margin-bottom: 1rem;
   text-align: justify;
   opacity: 0;
-  transform: translateX(100%);
-  transition: opacity 1s, transform 2s;
+  transform: scale(0.95);
+  transition: opacity 3s ease-out, transform 3s ease-out; 
+}
+
+.aboutParagraph.visible {
+  opacity: 1;
+  transform: scale(1); 
 }
 
 .imgContainer {

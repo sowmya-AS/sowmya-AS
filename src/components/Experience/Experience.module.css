@@ -1,8 +1,9 @@
 .experienceSection {
-  padding: 2rem;
-  background-color: #030303;
+  padding: 3rem 1rem;
+  background-color: #4a5683;
   scroll-margin-top: 4rem;
   margin: 0 auto;
+
 }
 
 .experienceSection h2 {
@@ -184,7 +185,5 @@
     flex-direction: column;
   }
 
-  .experienceSection {
-    padding: 0.5rem;
-  }
+ 
 }

@@ -7,7 +7,7 @@ const Contact = () => {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.iconContainer}>
-            <img className={styles.animatedIcon} src={ContactIcon} height={70} width={70}/> 
+            <img className={styles.animatedIcon} src={ContactIcon} height={60} width={60} /> 
           </div>
 
           <h2>INTERESTED IN WORKING TOGETHER?</h2>

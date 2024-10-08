@@ -22,7 +22,6 @@ const Experience = () => {
               </div>
               <div className={styles.flipCardBack}>
                 <div className={styles.cardContent}>
-                  {/* <h4 className={styles.projectName}>{exp.projects[0].name}</h4> */}
                   <p className={styles.projectDescription}>
                     {exp.projects[0].description}
                   </p>

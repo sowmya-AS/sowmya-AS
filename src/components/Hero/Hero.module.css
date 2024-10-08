@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 90vh;
+  min-height: 100vh;
   background: linear-gradient(rgba(4, 4, 9, 0.705), rgba(22, 20, 31, 0.7)),
     url("../../../assets/hero/background.jpg");
   background-size: cover;
@@ -72,7 +72,7 @@
 }
 
 .title {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2rem, 4vw, 4rem);
   font-weight: 900;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -87,7 +87,7 @@
 }
 
 .description {
-  font-size: clamp(1.125, 4vw, 1.75rem);
+  font-size: clamp(1.125rem, 4vw, 2.5rem);
 
   margin-bottom: 3.25rem;
   background: linear-gradient(
